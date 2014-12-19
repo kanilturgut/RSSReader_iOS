@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E905892919BAFF87000866FD /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E905892819BAFF87000866FD /* CustomCell.m */; };
+		E905892E19BB0A5A000866FD /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E905892D19BB0A5A000866FD /* AsyncImageView.m */; };
+		E905893319BB0AB8000866FD /* FeedTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E905893119BB0AB8000866FD /* FeedTableCell.m */; };
+		E905893419BB0AB8000866FD /* FeedTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E905893219BB0AB8000866FD /* FeedTableCell.xib */; };
 		E949DF4319B74AF40092734A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E949DF4219B74AF40092734A /* Foundation.framework */; };
 		E949DF4519B74AF40092734A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E949DF4419B74AF40092734A /* CoreGraphics.framework */; };
 		E949DF4719B74AF40092734A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E949DF4619B74AF40092734A /* UIKit.framework */; };
@@ -21,6 +25,15 @@
 		E949DF6419B74AF50092734A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E949DF4619B74AF40092734A /* UIKit.framework */; };
 		E949DF6C19B74AF50092734A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E949DF6A19B74AF50092734A /* InfoPlist.strings */; };
 		E949DF6E19B74AF50092734A /* RSS_ReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E949DF6D19B74AF50092734A /* RSS_ReaderTests.m */; };
+		E949DF7B19B751330092734A /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = E949DF7A19B751330092734A /* BaseService.m */; };
+		E9678AF819BA0A570026A5E4 /* yosemite.png in Resources */ = {isa = PBXBuildFile; fileRef = E9678AF719BA0A570026A5E4 /* yosemite.png */; };
+		E99F077F19B75AAE00D14C1B /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = E99F077E19B75AAE00D14C1B /* LoginService.m */; };
+		E99F078319B75B2A00D14C1B /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = E99F078219B75B2A00D14C1B /* UserService.m */; };
+		E99F078719B75BFA00D14C1B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E99F078619B75BFA00D14C1B /* User.m */; };
+		E9CFE9BB19B8B81A000AA51F /* RSSListContollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFE9BA19B8B81A000AA51F /* RSSListContollerViewController.m */; };
+		E9CFE9C119B8BB97000AA51F /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFE9C019B8BB97000AA51F /* Feed.m */; };
+		E9CFE9C519B8BC18000AA51F /* FeedService.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFE9C419B8BC18000AA51F /* FeedService.m */; };
+		E9D9AAE519BDEC4400F39DEE /* FeedDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9AAE419BDEC4400F39DEE /* FeedDetailsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E905892719BAFF87000866FD /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		E905892819BAFF87000866FD /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		E905892C19BB0A5A000866FD /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncImageView.h; path = ../../../Downloads/Yay/Yay/AsyncImageView.h; sourceTree = "<group>"; };
+		E905892D19BB0A5A000866FD /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncImageView.m; path = ../../../Downloads/Yay/Yay/AsyncImageView.m; sourceTree = "<group>"; };
+		E905893019BB0AB8000866FD /* FeedTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableCell.h; sourceTree = "<group>"; };
+		E905893119BB0AB8000866FD /* FeedTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableCell.m; sourceTree = "<group>"; };
+		E905893219BB0AB8000866FD /* FeedTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedTableCell.xib; sourceTree = "<group>"; };
 		E949DF3F19B74AF40092734A /* RSS Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSS Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E949DF4219B74AF40092734A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E949DF4419B74AF40092734A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +73,23 @@
 		E949DF6919B74AF50092734A /* RSS ReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSS ReaderTests-Info.plist"; sourceTree = "<group>"; };
 		E949DF6B19B74AF50092734A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E949DF6D19B74AF50092734A /* RSS_ReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSS_ReaderTests.m; sourceTree = "<group>"; };
+		E949DF7919B751330092734A /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
+		E949DF7A19B751330092734A /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
+		E9678AF719BA0A570026A5E4 /* yosemite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yosemite.png; path = ../../../Desktop/yosemite.png; sourceTree = "<group>"; };
+		E99F077D19B75AAE00D14C1B /* LoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginService.h; sourceTree = "<group>"; };
+		E99F077E19B75AAE00D14C1B /* LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginService.m; sourceTree = "<group>"; };
+		E99F078119B75B2A00D14C1B /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		E99F078219B75B2A00D14C1B /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		E99F078519B75BFA00D14C1B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E99F078619B75BFA00D14C1B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		E9CFE9B919B8B81A000AA51F /* RSSListContollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSListContollerViewController.h; sourceTree = "<group>"; };
+		E9CFE9BA19B8B81A000AA51F /* RSSListContollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSListContollerViewController.m; sourceTree = "<group>"; };
+		E9CFE9BF19B8BB97000AA51F /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
+		E9CFE9C019B8BB97000AA51F /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		E9CFE9C319B8BC18000AA51F /* FeedService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedService.h; sourceTree = "<group>"; };
+		E9CFE9C419B8BC18000AA51F /* FeedService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedService.m; sourceTree = "<group>"; };
+		E9D9AAE319BDEC4400F39DEE /* FeedDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedDetailsController.h; sourceTree = "<group>"; };
+		E9D9AAE419BDEC4400F39DEE /* FeedDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDetailsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +116,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E905892319BAFF37000866FD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E905892F19BB0A9D000866FD /* FeedTableCell */,
+				E905892719BAFF87000866FD /* CustomCell.h */,
+				E905892819BAFF87000866FD /* CustomCell.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		E905892A19BB0A2C000866FD /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E905892B19BB0A39000866FD /* AsyncImageView */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		E905892B19BB0A39000866FD /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E905892C19BB0A5A000866FD /* AsyncImageView.h */,
+				E905892D19BB0A5A000866FD /* AsyncImageView.m */,
+			);
+			name = AsyncImageView;
+			sourceTree = "<group>";
+		};
+		E905892F19BB0A9D000866FD /* FeedTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				E905893019BB0AB8000866FD /* FeedTableCell.h */,
+				E905893119BB0AB8000866FD /* FeedTableCell.m */,
+				E905893219BB0AB8000866FD /* FeedTableCell.xib */,
+			);
+			name = FeedTableCell;
+			sourceTree = "<group>";
+		};
 		E949DF3619B74AF40092734A = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +186,14 @@
 		E949DF4819B74AF40092734A /* RSS Reader */ = {
 			isa = PBXGroup;
 			children = (
-				E949DF5119B74AF40092734A /* AppDelegate.h */,
-				E949DF5219B74AF40092734A /* AppDelegate.m */,
+				E9D9AAE619BDEC8A00F39DEE /* AppDelagete */,
+				E9CFE9B319B8B531000AA51F /* Controllers */,
+				E905892A19BB0A2C000866FD /* Libraries */,
+				E99F078419B75BD900D14C1B /* Models */,
+				E9678AF619BA0A370026A5E4 /* Resources */,
+				E949DF7719B750B70092734A /* Services */,
+				E905892319BAFF37000866FD /* UI */,
 				E949DF5419B74AF40092734A /* Main.storyboard */,
-				E949DF5719B74AF40092734A /* ViewController.h */,
-				E949DF5819B74AF40092734A /* ViewController.m */,
 				E949DF5A19B74AF40092734A /* Images.xcassets */,
 				E949DF4919B74AF40092734A /* Supporting Files */,
 			);
@@ -150,6 +227,134 @@
 				E949DF6A19B74AF50092734A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E949DF7719B750B70092734A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E9CFE9C219B8BC05000AA51F /* FeedService */,
+				E99F078019B75B1200D14C1B /* UserService */,
+				E99F077C19B75A9600D14C1B /* LoginService */,
+				E949DF7819B750F80092734A /* BaseService */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		E949DF7819B750F80092734A /* BaseService */ = {
+			isa = PBXGroup;
+			children = (
+				E949DF7919B751330092734A /* BaseService.h */,
+				E949DF7A19B751330092734A /* BaseService.m */,
+			);
+			name = BaseService;
+			sourceTree = "<group>";
+		};
+		E9678AF619BA0A370026A5E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9678AF719BA0A570026A5E4 /* yosemite.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E99F077C19B75A9600D14C1B /* LoginService */ = {
+			isa = PBXGroup;
+			children = (
+				E99F077D19B75AAE00D14C1B /* LoginService.h */,
+				E99F077E19B75AAE00D14C1B /* LoginService.m */,
+			);
+			name = LoginService;
+			sourceTree = "<group>";
+		};
+		E99F078019B75B1200D14C1B /* UserService */ = {
+			isa = PBXGroup;
+			children = (
+				E99F078119B75B2A00D14C1B /* UserService.h */,
+				E99F078219B75B2A00D14C1B /* UserService.m */,
+			);
+			name = UserService;
+			sourceTree = "<group>";
+		};
+		E99F078419B75BD900D14C1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9CFE9BE19B8BB81000AA51F /* Feed */,
+				E9CFE9BD19B8BB5C000AA51F /* User */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E9CFE9B319B8B531000AA51F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9AAE219BDEC1100F39DEE /* FeedDetailsController */,
+				E9CFE9BC19B8B9AC000AA51F /* ViewContoller */,
+				E9CFE9B819B8B7EB000AA51F /* RSSListController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E9CFE9B819B8B7EB000AA51F /* RSSListController */ = {
+			isa = PBXGroup;
+			children = (
+				E9CFE9B919B8B81A000AA51F /* RSSListContollerViewController.h */,
+				E9CFE9BA19B8B81A000AA51F /* RSSListContollerViewController.m */,
+			);
+			name = RSSListController;
+			sourceTree = "<group>";
+		};
+		E9CFE9BC19B8B9AC000AA51F /* ViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				E949DF5719B74AF40092734A /* ViewController.h */,
+				E949DF5819B74AF40092734A /* ViewController.m */,
+			);
+			name = ViewContoller;
+			sourceTree = "<group>";
+		};
+		E9CFE9BD19B8BB5C000AA51F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E99F078619B75BFA00D14C1B /* User.m */,
+				E99F078519B75BFA00D14C1B /* User.h */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		E9CFE9BE19B8BB81000AA51F /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				E9CFE9BF19B8BB97000AA51F /* Feed.h */,
+				E9CFE9C019B8BB97000AA51F /* Feed.m */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+		E9CFE9C219B8BC05000AA51F /* FeedService */ = {
+			isa = PBXGroup;
+			children = (
+				E9CFE9C319B8BC18000AA51F /* FeedService.h */,
+				E9CFE9C419B8BC18000AA51F /* FeedService.m */,
+			);
+			name = FeedService;
+			sourceTree = "<group>";
+		};
+		E9D9AAE219BDEC1100F39DEE /* FeedDetailsController */ = {
+			isa = PBXGroup;
+			children = (
+				E9D9AAE319BDEC4400F39DEE /* FeedDetailsController.h */,
+				E9D9AAE419BDEC4400F39DEE /* FeedDetailsController.m */,
+			);
+			name = FeedDetailsController;
+			sourceTree = "<group>";
+		};
+		E9D9AAE619BDEC8A00F39DEE /* AppDelagete */ = {
+			isa = PBXGroup;
+			children = (
+				E949DF5119B74AF40092734A /* AppDelegate.h */,
+				E949DF5219B74AF40092734A /* AppDelegate.m */,
+			);
+			name = AppDelagete;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +435,8 @@
 			files = (
 				E949DF5B19B74AF40092734A /* Images.xcassets in Resources */,
 				E949DF4D19B74AF40092734A /* InfoPlist.strings in Resources */,
+				E9678AF819BA0A570026A5E4 /* yosemite.png in Resources */,
+				E905893419BB0AB8000866FD /* FeedTableCell.xib in Resources */,
 				E949DF5619B74AF40092734A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +456,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9CFE9BB19B8B81A000AA51F /* RSSListContollerViewController.m in Sources */,
+				E949DF7B19B751330092734A /* BaseService.m in Sources */,
+				E905892919BAFF87000866FD /* CustomCell.m in Sources */,
+				E99F078719B75BFA00D14C1B /* User.m in Sources */,
+				E9D9AAE519BDEC4400F39DEE /* FeedDetailsController.m in Sources */,
+				E9CFE9C119B8BB97000AA51F /* Feed.m in Sources */,
 				E949DF5919B74AF40092734A /* ViewController.m in Sources */,
+				E99F077F19B75AAE00D14C1B /* LoginService.m in Sources */,
+				E905892E19BB0A5A000866FD /* AsyncImageView.m in Sources */,
 				E949DF5319B74AF40092734A /* AppDelegate.m in Sources */,
+				E99F078319B75B2A00D14C1B /* UserService.m in Sources */,
+				E905893319BB0AB8000866FD /* FeedTableCell.m in Sources */,
 				E949DF4F19B74AF40092734A /* main.m in Sources */,
+				E9CFE9C519B8BC18000AA51F /* FeedService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +674,7 @@
 				E949DF7319B74AF50092734A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E949DF7419B74AF50092734A /* Build configuration list for PBXNativeTarget "RSS ReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +683,7 @@
 				E949DF7619B74AF50092734A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
